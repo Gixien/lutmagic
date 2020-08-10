@@ -1,0 +1,16 @@
+{
+  "name": "lutmagic",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "author": "Aurélien S <aurelien@coffeex.co>",
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "node": "12.14.1"
+  },
+  "workspaces": [
+    "api",
+    "web"
+  ],
+  "scripts": {}
+}

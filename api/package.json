@@ -1,0 +1,40 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "license": "MIT",
+  "engines": {
+    "node": "12.14.1"
+  },
+  "scripts": {
+    "start": "tsc & node .",
+    "dev": "tsc -w & nodemon .",
+    "lint": "eslint '*/**/*.{ts,tsx}' --quiet --fix"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.11.3",
+    "@types/koa-bodyparser": "^4.3.0",
+    "@types/koa-json": "^2.0.18",
+    "@types/koa-logger": "^3.1.1",
+    "@types/koa-router": "^7.4.1",
+    "@types/node": "^14.0.26",
+    "@typescript-eslint/eslint-plugin": "^3.7.0",
+    "@typescript-eslint/parser": "^3.7.0",
+    "eslint": "^7.5.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.0.5",
+    "typescript": "3.9.7"
+  },
+  "dependencies": {
+    "jimp": "^0.14.0",
+    "koa": "^2.13.0",
+    "koa-body": "^4.2.0",
+    "koa-json": "^2.0.2",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^9.1.0",
+    "ndarray": "^1.0.19",
+    "ndarray-linear-interpolate": "^1.0.0"
+  }
+}
