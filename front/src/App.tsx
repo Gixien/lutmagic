@@ -1,3 +1,11 @@
 import React from 'react';
+import { Switch, Route, withRouter } from 'react-router-dom';
+import Home from './Views/Home';
 
-export default () => <h1>Hello</h1>;
+const App = () => (
+  <Switch>
+    <Route exact path="/martin" component={Home} />
+  </Switch>
+);
+
+export default withRouter(App);

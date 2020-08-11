@@ -6,6 +6,7 @@ module.exports = {
   output: {
     path: path.join(__dirname, '/dist'),
     filename: 'main.js',
+    publicPath: '/'
   },
   module: {
     rules: [
@@ -17,6 +18,9 @@ module.exports = {
         },
       },
     ],
+  },
+  devServer: {
+    historyApiFallback: true,
   },
   resolve: {
     extensions: ['.tsx', '.ts', '.js', 'jsx'],
